@@ -6,6 +6,13 @@ gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
 
+#font aweseome
+gem 'font-awesome-sass', '~> 4.3.0'
+ 
+#use bootsrap library for style
+gem 'bootstrap-sass', '~> 3.3.4'
+gem 'sass-rails', '~> 5.0'
+#Use Postgresql as the database for production
 #Use Pstgresql as the database for production
 group :production do 
 	gem 'pg'
